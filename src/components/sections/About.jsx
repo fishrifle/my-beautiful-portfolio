@@ -87,6 +87,8 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4"> 🛠️ Work Experience</h3>
               <div className="space-y-4 text-gray-300">
               <div className="flex flex-wrap gap-2 mb-4">
+                <h4 className="font-semibold"> {" "} Software Developer @banyanlabs (2025-Present)</h4>
+                <p>Working with a team to create apps and websites for clients</p>
                   <h4 className="font-semibold"> {" "} Water Jet Operator at Durable Products Inc. (2023-Present)</h4>
                   <p>Responsible for the cutting of Volvo semi truck floor mats with the use of a computer programmed water jet.
                     Receive work orders detailing the type of mats needed as well as the quantity.
