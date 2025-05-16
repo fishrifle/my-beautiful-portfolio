@@ -89,6 +89,32 @@ export const Contact = () => {
           >
             Send Message
           </button>
+          <div className="flex justify-between items-center h-16">
+            <a href="https://www.linkedin.com/in/jesse-davis-web-development" className="font-mono text-xl font-bold text-blue-600">
+              {" "}
+            https://www.linkedin.com/in/jesse-davis-web-developer <span className="text-blue-500"></span>
+            </a>
+
+            <div
+              className="w-7 h-5 relative cursor-pointer z-40 md:hidden"
+              onClick={() => setMenuOpen((prev) => !prev)}
+            >
+              &#9776;
+            </div>
+            </div>
+          <div className="flex justify-between items-center h-16">
+            <a href="https://www.github.com/fishrifle" className="font-mono text-xl font-bold text-green-600">
+              {" "}
+              https://www.github.com/fishrifle<span className="text-blue-500"></span>
+            </a>
+
+            <div
+              className="w-7 h-5 relative cursor-pointer z-40 md:hidden"
+              onClick={() => setMenuOpen((prev) => !prev)}
+            >
+              &#9776;
+            </div>
+            </div>
         </form>
       </div>
       {/* </RevealOnScroll> */}

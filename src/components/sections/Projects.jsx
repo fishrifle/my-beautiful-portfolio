@@ -50,7 +50,7 @@ export const Projects = () => {
             <div className="p-6 rounded-xl border border-white hover:-translate-y-1 hover:border-blue-700/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all">
               <h3 className="text-xl font-bold mb-2">Blackjack</h3>
               <p className="text-gray-400 mb-4">
-                Simple Blackjack game with the ability to double down not betting
+                Simple Blackjack game. No betting
                 logic yet.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
