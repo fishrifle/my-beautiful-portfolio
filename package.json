@@ -1,6 +1,6 @@
 {
   "name": "my-beautiful-portfolio",
-  "homepage": "https://fishrifle.github.io/beautiful-portfolio",
+  "homepage": "https://fishrifle.github.io/my-beautiful-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -17,6 +17,7 @@
     "emailjs-com": "^3.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0",
     "tailwindcss": "^4.1.1"
   },
   "devDependencies": {
