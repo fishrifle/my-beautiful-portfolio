@@ -18,13 +18,9 @@ export const About = () => {
           </h2>
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
-              I'm a passionate Junior Web Developer with expertise in the MERN
-              stack (MongoDB, Express.js, React, Node.js) and a strong foundation
-              in front-end and back-end development. Experienced in building
-              interactive, user-friendly applications, creating RESTful APIs, and
-              implementing CRUD functionality. Adept at problem-solving,
-              collaboration, and continuously learning new technologies to enhance
-              software performance and user experience.
+              Detail-oriented Senior Fullstack Developer with real on the job exsperience building interactive web apps
+              using React, Next.js, TypeScript, Tailwind CSS 4 clerk Auth Stripe payments. Supabase tables and columns for percise endpoints making storing and retrieving data seemless and error free. Team Leader and strong collaberator experienced
+              with Agile/Scrum, sprint planning, and Git-based workflows. Passionate about solving problems and helping others grow.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
