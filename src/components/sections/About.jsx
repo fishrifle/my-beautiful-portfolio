@@ -6,7 +6,7 @@ import {
   SiTailwindcss, SiTypescript, SiNextdotjs, SiMongodb, SiExpress, SiMongoose, SiGithub, SiClickup,
 } from "react-icons/si";
 
-export const About = () => {
+export  const About = () => {
   const frontendSkills = [
     { icon: <FaReact />, label: "React" },
     { icon: <SiNextdotjs />, label: "Next.js" },
