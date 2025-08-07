@@ -16,16 +16,11 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
     <nav className={`fixed top-0 w-full z-40 transition-all duration-300 ${
       scrolled ? 'bg-black/80 backdrop-blur-md border-b border-yellow-400/20' : 'bg-transparent'
     }`}>
-      <div className="max-w-7xl mx-auto px-6 py-4">
+      <div className="max-w-7xl mx-auto px-6 py-2">
         <div className="flex justify-between items-center">
           <div className="flex items-center space-x-3">
-            <img 
-              src="/IconOnly.png" 
-              alt="Jesse Davis Logo" 
-              className="w-10 h-10 object-contain"
-            />
             <div className="text-2xl font-bold gradient-text">
-              Jesse Davis
+              
             </div>
           </div>
           

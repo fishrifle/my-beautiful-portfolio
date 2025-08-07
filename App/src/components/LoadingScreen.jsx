@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 export const LoadingScreen = ({ onComplete }) => {
   const [progress, setProgress] = useState(0);
   const [text, setText] = useState('');
-  const fullText = 'Initializing Portfolio...';
+  const fullText = 'Access Granted';
 
   useEffect(() => {
     const timer = setInterval(() => {

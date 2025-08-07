@@ -1,28 +1,28 @@
 export const Projects = () => {
   const projects = [
     {
-      title: "Emoji Blush",
-      description: "Interactive emoji application with modern UI design. Features emoji search, categories, and responsive design for all devices.",
-      image: "🌟",
-      tech: ["React", "CSS3", "JavaScript", "Vercel"],
-      liveUrl: "https://emoji-blush.vercel.app/",
-      githubUrl: "https://github.com/fishrifle"
-    },
-    {
-      title: "Blackjack Game",
-      description: "Classic blackjack card game with sleek design and smooth gameplay. Features dealer AI, card animations, and score tracking.",
-      image: "🃏",
-      tech: ["JavaScript", "HTML5", "CSS3", "Game Logic"],
-      liveUrl: "https://blackjack-game-three-sage.vercel.app/",
-      githubUrl: "https://github.com/fishrifle"
+      title: "Pokemon Card Battle",
+      description: "Interactive Pokemon card battle game with real-time combat mechanics. Features card animations, battle logic, and responsive design for an engaging gaming experience.",
+      image: "⚡",
+      tech: ["React", "JavaScript", "CSS3", "Game Logic", "Vercel"],
+      liveUrl: "https://pokemon-card-battle.vercel.app/",
+      githubUrl: "https://github.com/fishrifle/pokemon-card-battle"
     },
     {
       title: "Donation Platform",
-      description: "Modern donation platform with secure payment processing and user-friendly interface for charitable contributions.",
+      description: "Complete donation ecosystem with secure payment processing and admin dashboard. Features Stripe integration, user management, and real-time analytics for charitable organizations.",
       image: "💝",
-      tech: ["React", "Next.js", "Payment API", "Vercel"],
-      liveUrl: "https://donation-kja6-ac3flrkqw-jesse-davis-projects.vercel.app/",
-      githubUrl: "https://github.com/fishrifle"
+      tech: ["Next.js", "React", "Stripe", "Supabase", "Clerk Auth"],
+      liveUrl: "https://donation-one-phi.vercel.app/",
+      githubUrl: "https://github.com/fishrifle/Donation"
+    },
+    {
+      title: "Widget Admin Dashboard",
+      description: "Enterprise-grade admin dashboard for managing donation widgets. Features authentication, database management, analytics, and customizable widget deployment system.",
+      image: "🛡️",
+      tech: ["Next.js", "TypeScript", "Supabase", "Clerk", "Stripe Connect"],
+      liveUrl: "#",
+      githubUrl: "https://github.com/fishrifle/Widget-Admin"
     }
   ];
 
@@ -66,12 +66,17 @@ export const Projects = () => {
                   ))}
                 </div>
                 
-                <div className="flex gap-4">
+                <div className="flex gap-2">
                   <a
                     href={project.liveUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex-1 text-center py-2 bg-gradient-to-r from-yellow-400 to-orange-500 text-black font-semibold rounded-lg hover:from-yellow-300 hover:to-orange-400 transition-all duration-300"
+                    onClick={(e) => {
+                      // Store portfolio URL for return navigation
+                      const portfolioUrl = window.location.origin + window.location.pathname;
+                      sessionStorage.setItem('portfolioReturnUrl', portfolioUrl);
+                    }}
                   >
                     Live Demo
                   </a>

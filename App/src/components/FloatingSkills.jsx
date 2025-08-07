@@ -71,7 +71,7 @@ const SkillsScroll = () => {
           <h3 className="text-center text-xl text-yellow-400 font-semibold mb-6">Frontend</h3>
           <div className="relative overflow-hidden">
             <div className="flex animate-scroll-slow">
-              {[...frontendSkills, ...frontendSkills].map((skill, index) => (
+              {[...frontendSkills, ...frontendSkills, ...frontendSkills].map((skill, index) => (
                 <SkillIcon key={`frontend-${index}`} skill={skill} />
               ))}
             </div>
@@ -86,7 +86,7 @@ const SkillsScroll = () => {
           <h3 className="text-center text-xl text-orange-400 font-semibold mb-6">Backend</h3>
           <div className="relative overflow-hidden">
             <div className="flex animate-scroll-slow-reverse">
-              {[...backendSkills, ...backendSkills].map((skill, index) => (
+              {[...backendSkills, ...backendSkills, ...backendSkills].map((skill, index) => (
                 <SkillIcon key={`backend-${index}`} skill={skill} />
               ))}
             </div>

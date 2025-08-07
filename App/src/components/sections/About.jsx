@@ -41,11 +41,14 @@ export const About = () => {
           </div>
 
           <div className="relative">
-            <div className="w-full h-96 bg-gradient-to-br from-yellow-400/20 to-orange-500/20 rounded-2xl flex items-center justify-center">
-              <div className="text-6xl gradient-text">👨‍💻</div>
+            <div className="w-full h-96 bg-gradient-to-br from-yellow-400/20 to-orange-500/20 rounded-2xl overflow-hidden border border-yellow-400/20 hover:border-yellow-400/40 transition-all duration-300 group">
+              <img 
+                src="fulllogo.jpg" 
+                alt="Jesse Davis - Full Stack Engineer" 
+                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </div>
-            <div className="absolute -top-4 -right-4 w-24 h-24 bg-gradient-to-br from-red-500 to-orange-500 rounded-full opacity-20 animate-pulse"></div>
-            <div className="absolute -bottom-4 -left-4 w-16 h-16 bg-gradient-to-br from-yellow-400 to-red-500 rounded-full opacity-30 animate-pulse" style={{ animationDelay: '1s' }}></div>
           </div>
         </div>
       </div>

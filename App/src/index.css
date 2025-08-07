@@ -109,13 +109,13 @@ html, body {
       transform: translateX(0);
     }
     100% {
-      transform: translateX(-50%);
+      transform: translateX(-33.333%);
     }
   }
 
   @keyframes scroll-slow-reverse {
     0% {
-      transform: translateX(-50%);
+      transform: translateX(-33.333%);
     }
     100% {
       transform: translateX(0);
@@ -123,11 +123,11 @@ html, body {
   }
 
   .animate-scroll-slow {
-    animation: scroll-slow 20s linear infinite;
+    animation: scroll-slow 30s linear infinite;
   }
 
   .animate-scroll-slow-reverse {
-    animation: scroll-slow-reverse 25s linear infinite;
+    animation: scroll-slow-reverse 35s linear infinite;
   }
 }
 

@@ -7,7 +7,7 @@ export const Home = () => {
             <span className="gradient-text">Jesse Davis</span>
           </h1>
           <h2 className="text-2xl md:text-3xl text-gray-300 mb-8">
-            Full Stack Developer
+            Full Stack Engineer
           </h2>
         </div>
 
@@ -24,7 +24,7 @@ export const Home = () => {
             View My Work
           </a>
           <a
-            href="/Jesse_Davis_Technical_Resume.pdf"
+            href="./Jesse-Davis (2).pdf"
             download
             className="px-8 py-4 border-2 border-yellow-400 text-yellow-400 font-semibold rounded-lg hover:bg-yellow-400 hover:text-black transition-all duration-300 hover:scale-105 text-center interactive"
           >
