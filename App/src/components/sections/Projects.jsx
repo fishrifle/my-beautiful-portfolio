@@ -1,28 +1,28 @@
 export const Projects = () => {
   const projects = [
     {
-      title: "Pokemon Card Battle",
-      description: "Interactive Pokemon card battle game with real-time combat mechanics. Features card animations, battle logic, and responsive design for an engaging gaming experience.",
-      image: "⚡",
-      tech: ["React", "JavaScript", "CSS3", "Game Logic", "Vercel"],
-      liveUrl: "https://pokemon-card-battle.vercel.app/",
-      githubUrl: "https://github.com/fishrifle/pokemon-card-battle"
+      title: "Emoji Mood Tracker",
+      description: "Interactive emoji application with modern UI design. Features emoji search, categories, and responsive design for all devices with smooth animations.",
+      image: "😊",
+      tech: ["React", "CSS3", "JavaScript", "Vercel"],
+      liveUrl: "https://emoji-blush.vercel.app/",
+      githubUrl: "https://github.com/fishrifle"
     },
     {
-      title: "Donation Platform",
-      description: "Complete donation ecosystem with secure payment processing and admin dashboard. Features Stripe integration, user management, and real-time analytics for charitable organizations.",
-      image: "💝",
-      tech: ["Next.js", "React", "Stripe", "Supabase", "Clerk Auth"],
-      liveUrl: "https://donation-one-phi.vercel.app/",
-      githubUrl: "https://github.com/fishrifle/Donation"
+      title: "Solar System Explorer",
+      description: "Interactive 3D solar system with realistic planet orbits, detailed information panels, and smooth animations. Educational astronomy application with beautiful visuals.",
+      image: "🌌",
+      tech: ["JavaScript", "CSS3", "3D Animations", "Web APIs"],
+      liveUrl: "https://solar-system-explorer.vercel.app/",
+      githubUrl: "https://github.com/fishrifle"
     },
     {
-      title: "Widget Admin Dashboard",
-      description: "Enterprise-grade admin dashboard for managing donation widgets. Features authentication, database management, analytics, and customizable widget deployment system.",
-      image: "🛡️",
-      tech: ["Next.js", "TypeScript", "Supabase", "Clerk", "Stripe Connect"],
-      liveUrl: "#",
-      githubUrl: "https://github.com/fishrifle/Widget-Admin"
+      title: "Blackjack Game",
+      description: "Classic blackjack card game with sleek design and smooth gameplay. Features dealer AI, card animations, score tracking, and responsive mobile design.",
+      image: "🃏",
+      tech: ["JavaScript", "HTML5", "CSS3", "Game Logic"],
+      liveUrl: "https://blackjack-game-three-sage.vercel.app/",
+      githubUrl: "https://github.com/fishrifle"
     }
   ];
 
@@ -30,10 +30,10 @@ export const Projects = () => {
     <section id="projects" className="min-h-screen py-20 bg-gradient-to-b from-black to-gray-900/50">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-5xl font-bold gradient-text mb-6">Featured Projects</h2>
+          <h2 className="text-5xl font-bold gradient-text mb-6">Creative Projects</h2>
           <div className="w-24 h-1 bg-gradient-to-r from-yellow-400 to-orange-500 mx-auto mb-6"></div>
           <p className="text-gray-400 text-xl max-w-2xl mx-auto">
-            A showcase of my latest work, demonstrating expertise in modern web technologies
+            Fun and interactive applications showcasing creativity and technical skills
           </p>
         </div>
 

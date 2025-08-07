@@ -41,7 +41,7 @@ export const About = () => {
           </div>
 
           <div className="relative">
-            <div className="w-full h-96 bg-gradient-to-br from-yellow-400/20 to-orange-500/20 rounded-2xl overflow-hidden border border-yellow-400/20 hover:border-yellow-400/40 transition-all duration-300 group">
+            <div className="w-full h-80 bg-gradient-to-br from-yellow-400/20 to-orange-500/20 rounded-2xl overflow-hidden border border-yellow-400/20 hover:border-yellow-400/40 transition-all duration-300 group">
               <img 
                 src="fulllogo.jpg" 
                 alt="Jesse Davis - Full Stack Engineer" 
