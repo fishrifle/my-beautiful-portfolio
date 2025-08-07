@@ -40,15 +40,12 @@ export const About = () => {
             </div>
           </div>
 
-          <div className="relative">
-            <div className="w-full h-80 bg-gradient-to-br from-yellow-400/20 to-orange-500/20 rounded-2xl overflow-hidden border border-yellow-400/20 hover:border-yellow-400/40 transition-all duration-300 group">
-              <img 
-                src="fulllogo.jpg" 
-                alt="Jesse Davis - Full Stack Engineer" 
-                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-            </div>
+          <div className="relative flex justify-center">
+            <img 
+              src="fulllogo.jpg" 
+              alt="Jesse Davis - Full Stack Engineer" 
+              className="w-80 h-auto object-contain rounded-2xl border border-yellow-400/20 hover:border-yellow-400/40 transition-all duration-300 hover:scale-105 animate-float"
+            />
           </div>
         </div>
       </div>
