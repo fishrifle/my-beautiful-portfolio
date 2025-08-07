@@ -8,6 +8,7 @@ import { Home } from "./components/sections/Home";
 import { About } from "./components/sections/About";
 import SkillsScroll from "./components/FloatingSkills";
 import { Projects } from "./components/sections/Projects";
+import { Resume } from "./components/sections/Resume";
 import { Contact } from "./components/sections/Contact"
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <About />
         <SkillsScroll />
         <Projects />
+        <Resume />
         <Contact />
       </div>
     </>

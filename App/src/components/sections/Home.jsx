@@ -25,7 +25,7 @@ export const Home = () => {
           </a>
           <a
             href="./Jesse-Davis (2).pdf"
-            download
+            download="Jesse-Davis-Resume.pdf"
             className="px-8 py-4 border-2 border-yellow-400 text-yellow-400 font-semibold rounded-lg hover:bg-yellow-400 hover:text-black transition-all duration-300 hover:scale-105 text-center interactive"
           >
             Download Resume

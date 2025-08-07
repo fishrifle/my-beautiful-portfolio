@@ -25,7 +25,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
           </div>
           
           <div className="hidden md:flex space-x-8">
-            {['Home', 'About', 'Projects', 'Contact'].map((item) => (
+            {['Home', 'About', 'Projects', 'Resume', 'Contact'].map((item) => (
               <a
                 key={item}
                 href={`#${item.toLowerCase()}`}

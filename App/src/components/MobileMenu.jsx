@@ -7,7 +7,7 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
       
       <div className="relative z-10 flex items-center justify-center h-full">
         <div className="text-center space-y-8">
-          {['Home', 'About', 'Projects', 'Contact'].map((item, index) => (
+          {['Home', 'About', 'Projects', 'Resume', 'Contact'].map((item, index) => (
             <a
               key={item}
               href={`#${item.toLowerCase()}`}
