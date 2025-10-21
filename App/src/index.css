@@ -1,20 +1,21 @@
 @import "tailwindcss";
 
 :root {
-  --primary-black: #0a0a0a;
-  --secondary-black: #1a1a1a;
-  --accent-yellow: #ffd700;
-  --accent-red: #ff4444;
-  --accent-orange: #ff6b35;
-  --text-light: #f3f4f6;
-  --text-gray: #9ca3af;
+  --primary-navy: #0f172a;
+  --secondary-navy: #1e293b;
+  --accent-blue: #3b82f6;
+  --accent-blue-light: #60a5fa;
+  --accent-blue-dark: #1e40af;
+  --text-light: #f1f5f9;
+  --text-gray: #94a3b8;
+  --border-blue: #1e40af;
 }
 
 html, body {
   margin: 0;
   padding: 0;
   font-family: "Space Grotesk", sans-serif;
-  background: var(--primary-black);
+  background: var(--primary-navy);
   color: var(--text-light);
   overflow-x: hidden;
 }
@@ -66,10 +67,10 @@ html, body {
 
   @keyframes pulse-glow {
     0%, 100% {
-      box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+      box-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
     }
     50% {
-      box-shadow: 0 0 40px rgba(255, 215, 0, 0.6), 0 0 60px rgba(255, 68, 68, 0.3);
+      box-shadow: 0 0 40px rgba(59, 130, 246, 0.6), 0 0 60px rgba(96, 165, 250, 0.3);
     }
   }
 
@@ -88,17 +89,17 @@ html, body {
   .skill-icon {
     transition: all 0.3s ease;
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 215, 0, 0.2);
+    border: 1px solid rgba(59, 130, 246, 0.2);
   }
 
   .skill-icon:hover {
     transform: scale(1.1) translateY(-5px);
-    box-shadow: 0 20px 40px rgba(255, 215, 0, 0.4);
-    border-color: var(--accent-yellow);
+    box-shadow: 0 20px 40px rgba(59, 130, 246, 0.4);
+    border-color: var(--accent-blue);
   }
 
   .gradient-text {
-    background: linear-gradient(45deg, var(--accent-yellow), var(--accent-orange), var(--accent-red));
+    background: linear-gradient(135deg, var(--accent-blue-light), var(--accent-blue), var(--accent-blue-dark));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;

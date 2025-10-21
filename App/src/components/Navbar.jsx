@@ -14,7 +14,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
 
   return (
     <nav className={`fixed top-0 w-full z-40 transition-all duration-300 ${
-      scrolled ? 'bg-black/80 backdrop-blur-md border-b border-yellow-400/20' : 'bg-transparent'
+      scrolled ? 'bg-slate-950/80 backdrop-blur-md border-b border-blue-500/20' : 'bg-transparent'
     }`}>
       <div className="max-w-7xl mx-auto px-6 py-2">
         <div className="flex justify-between items-center">
@@ -29,17 +29,17 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
               <a
                 key={item}
                 href={`#${item.toLowerCase()}`}
-                className="text-gray-300 hover:text-yellow-400 transition-colors duration-300 relative group"
+                className="text-slate-300 hover:text-blue-400 transition-colors duration-300 relative group"
               >
                 {item}
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-yellow-400 to-orange-500 transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-blue-400 transition-all duration-300 group-hover:w-full"></span>
               </a>
             ))}
           </div>
 
           <button
             onClick={() => setMenuOpen(!menuOpen)}
-            className="md:hidden text-yellow-400 hover:text-orange-500 transition-colors duration-300"
+            className="md:hidden text-blue-400 hover:text-blue-500 transition-colors duration-300"
           >
             <div className="w-6 h-6 flex flex-col justify-center space-y-1">
               <span className={`block h-0.5 w-full bg-current transition-all duration-300 ${menuOpen ? 'rotate-45 translate-y-1.5' : ''}`}></span>
