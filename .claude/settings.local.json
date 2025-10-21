@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/fishr/Desktop/github projects/**)",
+      "Read(//c/Users/fishr/Desktop/battleship/**)",
+      "Read(//c/Users/fishr/Desktop/modern_battleship/**)",
+      "Bash(netstat:*)",
+      "Bash(copy:*)",
+      "WebFetch(domain:modern-battleship-zxfi.vercel.app)",
+      "WebFetch(domain:flash-cards-five-mu.vercel.app)",
+      "WebFetch(domain:becomingher-ik3k.vercel.app)",
+      "Bash(git fetch:*)",
+      "Bash(npm run deploy)",
+      "Read(//c/Users/fishr/Desktop/**)",
+      "Bash(npm install:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nAdd complete monetization system with Stripe & Clerk\n\n- Add Stripe subscription integration ($12.99/mo, $119.99/yr)\n- Implement Clerk authentication\n- Create beautiful pricing page with free/premium tiers\n- Add payment checkout API routes\n- Implement webhook handler for subscription events\n- Add premium content gating system\n- Update homepage with Sign In and Go Premium buttons\n- Add middleware for protected routes\n- Include complete setup documentation\n\n🤖 Generated with Claude Code\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
