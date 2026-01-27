@@ -9,13 +9,13 @@ export const About = () => {
   return (
     <section id="about" className="min-h-screen py-20 relative">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 reveal">
           <h2 className="text-5xl font-bold gradient-text mb-6">About Me</h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-blue-400 mx-auto"></div>
         </div>
 
         <div className="grid md:grid-cols-2 gap-16 items-center">
-          <div>
+          <div className="reveal">
             <h3 className="text-3xl font-semibold text-blue-400 mb-6">
               Senior Full Stack Engineer & Problem Solver
             </h3>
@@ -40,7 +40,7 @@ export const About = () => {
             </div>
           </div>
 
-          <div className="relative flex justify-center">
+          <div className="relative flex justify-center reveal">
             <img 
               src="fulllogo.jpg" 
               alt="Jesse Davis - Full Stack Engineer" 

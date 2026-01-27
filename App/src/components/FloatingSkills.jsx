@@ -48,10 +48,10 @@ const SkillsScroll = () => {
     const Icon = skill.icon;
     return (
       <div className="flex flex-col items-center group mx-8">
-        <div className="p-4 bg-gradient-to-br from-black/60 to-gray-900/60 rounded-xl border border-yellow-400/20 hover:border-yellow-400/40 transition-all duration-300 hover:scale-110">
+        <div className="p-4 bg-gradient-to-br from-slate-900/60 to-slate-800/60 rounded-xl border border-blue-500/20 hover:border-blue-400/50 transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-blue-500/20">
           <Icon className={`text-5xl ${skill.color} transition-all duration-300`} />
         </div>
-        <span className="text-sm text-gray-400 mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+        <span className="text-sm text-slate-400 mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
           {skill.name}
         </span>
       </div>
@@ -59,16 +59,16 @@ const SkillsScroll = () => {
   };
 
   return (
-    <section className="py-20 bg-gradient-to-b from-black to-gray-900/50 overflow-hidden">
-      <div className="text-center mb-12">
-        <h2 className="text-4xl font-bold gradient-text mb-4">Technologies</h2>
-        <div className="w-20 h-1 bg-gradient-to-r from-yellow-400 to-orange-500 mx-auto"></div>
+    <section className="py-20 bg-gradient-to-b from-slate-950 to-slate-900/50 overflow-hidden">
+      <div className="text-center mb-12 reveal">
+        <h2 className="text-5xl font-bold gradient-text mb-6">Technologies</h2>
+        <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-blue-400 mx-auto"></div>
       </div>
-      
+
       <div className="relative">
         {/* Frontend Skills */}
         <div className="mb-8">
-          <h3 className="text-center text-xl text-yellow-400 font-semibold mb-6">Frontend</h3>
+          <h3 className="text-center text-xl text-blue-400 font-semibold mb-6">Frontend</h3>
           <div className="relative overflow-hidden">
             <div className="flex animate-scroll-slow">
               {[...frontendSkills, ...frontendSkills, ...frontendSkills].map((skill, index) => (
@@ -83,7 +83,7 @@ const SkillsScroll = () => {
 
         {/* Backend Skills */}
         <div>
-          <h3 className="text-center text-xl text-orange-400 font-semibold mb-6">Backend</h3>
+          <h3 className="text-center text-xl text-blue-300 font-semibold mb-6">Backend</h3>
           <div className="relative overflow-hidden">
             <div className="flex animate-scroll-slow-reverse">
               {[...backendSkills, ...backendSkills, ...backendSkills].map((skill, index) => (

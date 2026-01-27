@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./App.css";
 import { LoadingScreen } from "./components/LoadingScreen";
 import { Navbar } from "./components/Navbar";
@@ -9,11 +9,31 @@ import { About } from "./components/sections/About";
 import SkillsScroll from "./components/FloatingSkills";
 import { Projects } from "./components/sections/Projects";
 import { Resume } from "./components/sections/Resume";
-import { Contact } from "./components/sections/Contact"
+import { Contact } from "./components/sections/Contact";
+import { Footer } from "./components/Footer";
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+
+  useEffect(() => {
+    if (!isLoaded) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+          }
+        });
+      },
+      { threshold: 0.1, rootMargin: "0px 0px -50px 0px" }
+    );
+
+    document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
+
+    return () => observer.disconnect();
+  }, [isLoaded]);
 
   return (
     <>
@@ -31,6 +51,7 @@ function App() {
         <Projects />
         <Resume />
         <Contact />
+        <Footer />
       </div>
     </>
   );

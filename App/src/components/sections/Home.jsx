@@ -1,8 +1,16 @@
 export const Home = () => {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
+      {/* Animated grid background */}
+      <div className="absolute inset-0 hero-grid"></div>
+      {/* Radial glow */}
+      <div className="absolute inset-0 hero-glow"></div>
+
       <div className="text-center z-20 max-w-4xl mx-auto px-6">
         <div className="mb-8">
+          <p className="text-blue-400 text-lg font-medium tracking-widest uppercase mb-4 animate-float">
+            Welcome to my portfolio
+          </p>
           <h1 className="text-6xl md:text-8xl font-bold mb-6">
             <span className="gradient-text">Jesse Davis</span>
           </h1>
@@ -19,14 +27,14 @@ export const Home = () => {
         <div className="flex flex-col sm:flex-row gap-6 justify-center">
           <a
             href="#projects"
-            className="px-8 py-4 bg-gradient-to-r from-blue-600 to-blue-500 text-white font-semibold rounded-lg hover:from-blue-500 hover:to-blue-400 transition-all duration-300 hover:scale-105 hover:shadow-2xl shadow-blue-500/50 text-center interactive"
+            className="px-8 py-4 bg-gradient-to-r from-blue-600 to-blue-500 text-white font-semibold rounded-lg hover:from-blue-500 hover:to-blue-400 transition-all duration-300 hover:scale-105 hover:shadow-2xl shadow-blue-500/50 text-center"
           >
             View My Work
           </a>
           <a
             href="./Jesse-Davis-Resume.pdf"
             download="Jesse-Davis-Resume.pdf"
-            className="px-8 py-4 border-2 border-blue-500 text-blue-400 font-semibold rounded-lg hover:bg-blue-500 hover:text-white transition-all duration-300 hover:scale-105 text-center interactive"
+            className="px-8 py-4 border-2 border-blue-500 text-blue-400 font-semibold rounded-lg hover:bg-blue-500 hover:text-white transition-all duration-300 hover:scale-105 text-center"
           >
             Download Resume
           </a>
