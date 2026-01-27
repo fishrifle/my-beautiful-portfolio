@@ -25,7 +25,7 @@ export const About = () => {
               payment integrations, real-time UI features, and performance optimization.
             </p>
             <p className="text-slate-300 text-lg leading-relaxed mb-8">
-              Currently pursuing Applied Science and Machine Learning at Maestro College (4.0 GPA) while delivering full-stack projects
+              Currently pursuing a Bachelor's in Computer Science, Business and AI at Maestro College (4.0 GPA) while delivering full-stack projects
               that enhance user experience and drive business results. My work includes Three.js visualizations, accessible web applications,
               and collaborative solutions that translate requirements into technical excellence.
             </p>

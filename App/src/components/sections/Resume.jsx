@@ -112,7 +112,7 @@ export const Resume = () => {
             <div className="flex flex-col md:flex-row md:items-center justify-between mb-2">
               <div>
                 <h4 className="text-lg font-bold text-blue-300">Maestro College</h4>
-                <p className="text-slate-400 text-sm">Applied Science and Machine Learning</p>
+                <p className="text-slate-400 text-sm">Bachelor's, Computer Science, Business and AI</p>
               </div>
               <span className="text-sm text-slate-400">2024 - 2028 | GPA: 4.0</span>
             </div>
