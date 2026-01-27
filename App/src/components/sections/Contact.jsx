@@ -187,7 +187,8 @@ export const Contact = () => {
 
               {submitStatus === 'error' && (
                 <div className="mt-4 p-4 bg-red-500/20 border border-red-500 rounded-lg text-red-300 text-center">
-                  Failed to send message. Please try emailing me directly at jdavis.prsvr@gmail.com
+                  Failed to send message. Please try emailing me directly at{' '}
+                  <a href="mailto:jdavis.prsvr@gmail.com" className="underline hover:text-red-200 transition-colors">jdavis.prsvr@gmail.com</a>
                 </div>
               )}
             </form>

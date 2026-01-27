@@ -16,13 +16,13 @@ export const Resume = () => {
         <div className="mb-12 text-center reveal">
           <h3 className="text-2xl font-bold text-blue-400 mb-4">Jesse Davis</h3>
           <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-slate-300 text-sm">
-            <span className="flex items-center gap-1.5"><FaEnvelope className="text-blue-400" /> jdavis.prsvr@gmail.com</span>
-            <span className="flex items-center gap-1.5"><FaPhone className="text-blue-400" /> (931) 210-8791</span>
-            <span className="flex items-center gap-1.5"><FaGlobe className="text-blue-400" /> jldavistech.com</span>
+            <a href="mailto:jdavis.prsvr@gmail.com" className="flex items-center gap-1.5 hover:text-blue-400 transition-colors"><FaEnvelope className="text-blue-400" /> jdavis.prsvr@gmail.com</a>
+            <a href="tel:+19312108791" className="flex items-center gap-1.5 hover:text-blue-400 transition-colors"><FaPhone className="text-blue-400" /> (931) 210-8791</a>
+            <a href="https://jldavistech.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 hover:text-blue-400 transition-colors"><FaGlobe className="text-blue-400" /> jldavistech.com</a>
           </div>
           <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-slate-300 text-sm mt-2">
-            <span className="flex items-center gap-1.5"><FaGithub className="text-blue-400" /> github.com/fishrifle</span>
-            <span className="flex items-center gap-1.5"><FaLinkedin className="text-blue-400" /> linkedin.com/in/jesse-davis-tech</span>
+            <a href="https://github.com/fishrifle" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 hover:text-blue-400 transition-colors"><FaGithub className="text-blue-400" /> github.com/fishrifle</a>
+            <a href="https://www.linkedin.com/in/jesse-davis-tech" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 hover:text-blue-400 transition-colors"><FaLinkedin className="text-blue-400" /> linkedin.com/in/jesse-davis-tech</a>
           </div>
         </div>
 
