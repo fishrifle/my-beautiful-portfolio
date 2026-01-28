@@ -49,7 +49,7 @@ export const Contact = () => {
   };
 
   const contactInfo = [
-    { icon: FaEnvelope, label: 'Email', value: 'jdavis.prsvr@gmail.com', href: 'mailto:jdavis.prsvr@gmail.com' },
+    { icon: FaEnvelope, label: 'Email', value: 'jdavis.prsvr@gmail.com', href: 'https://mail.google.com/mail/?view=cm&to=jdavis.prsvr@gmail.com' },
     { icon: FaPhone, label: 'Phone', value: '(931) 210-8791', href: 'tel:+19312108791' },
     { icon: FaMapMarkerAlt, label: 'Location', value: 'Available Remotely' },
   ];
@@ -57,7 +57,7 @@ export const Contact = () => {
   const socialLinks = [
     { icon: FaGithub, href: 'https://github.com/fishrifle', label: 'GitHub' },
     { icon: FaLinkedin, href: 'https://www.linkedin.com/in/jesse-davis-tech', label: 'LinkedIn' },
-    { icon: FaEnvelope, href: 'mailto:jdavis.prsvr@gmail.com', label: 'Email' },
+    { icon: FaEnvelope, href: 'https://mail.google.com/mail/?view=cm&to=jdavis.prsvr@gmail.com', label: 'Email' },
   ];
 
   return (
@@ -108,8 +108,8 @@ export const Contact = () => {
                     <a
                       key={link.label}
                       href={link.href}
-                      target={link.href.startsWith('mailto') ? undefined : '_blank'}
-                      rel={link.href.startsWith('mailto') ? undefined : 'noopener noreferrer'}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="w-12 h-12 bg-gradient-to-br from-slate-900/60 to-slate-800/60 border border-blue-500/30 rounded-lg flex items-center justify-center hover:border-blue-400 hover:scale-110 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/30"
                       title={link.label}
                       aria-label={link.label}
@@ -188,7 +188,7 @@ export const Contact = () => {
               {submitStatus === 'error' && (
                 <div className="mt-4 p-4 bg-red-500/20 border border-red-500 rounded-lg text-red-300 text-center">
                   Failed to send message. Please try emailing me directly at{' '}
-                  <a href="mailto:jdavis.prsvr@gmail.com" className="underline hover:text-red-200 transition-colors">jdavis.prsvr@gmail.com</a>
+                  <a href="https://mail.google.com/mail/?view=cm&to=jdavis.prsvr@gmail.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-red-200 transition-colors">jdavis.prsvr@gmail.com</a>
                 </div>
               )}
             </form>

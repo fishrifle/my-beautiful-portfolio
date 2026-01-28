@@ -14,7 +14,7 @@ export const Footer = () => {
   const socials = [
     { icon: FaGithub, href: 'https://github.com/fishrifle', label: 'GitHub' },
     { icon: FaLinkedin, href: 'https://www.linkedin.com/in/jesse-davis-tech', label: 'LinkedIn' },
-    { icon: FaEnvelope, href: 'mailto:jdavis.prsvr@gmail.com', label: 'Email' },
+    { icon: FaEnvelope, href: 'https://mail.google.com/mail/?view=cm&to=jdavis.prsvr@gmail.com', label: 'Email' },
   ];
 
   return (
@@ -50,8 +50,8 @@ export const Footer = () => {
                 <a
                   key={social.label}
                   href={social.href}
-                  target={social.href.startsWith('mailto') ? undefined : '_blank'}
-                  rel={social.href.startsWith('mailto') ? undefined : 'noopener noreferrer'}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-10 h-10 rounded-lg border border-blue-500/20 flex items-center justify-center text-slate-400 hover:text-blue-400 hover:border-blue-400/50 transition-all duration-300"
                   aria-label={social.label}
                 >
